@@ -2,7 +2,6 @@ import React from "react";
 import PropertySearch from "./PropertySearch";
 
 import type { Meta, StoryObj } from "@storybook/react";
-import exp from "constants";
 
 const meta = {
   title: "PropertySearch",

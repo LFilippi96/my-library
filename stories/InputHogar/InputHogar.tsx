@@ -2,6 +2,7 @@ import React from "react";
 import "./InputHogar.css"; // Asegúrate de que este archivo exista y esté en la misma carpeta que InputHogar.tsx
 import Image from "next/image";
 import ImageX from "./Shape.svg";
+
 interface InputProps {
   type?: string;
   value?: string;

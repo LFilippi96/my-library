@@ -1,8 +1,11 @@
 {
   "name": "@LFilippi96/my-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "repository": "https://github.com/LFilippi96/my-library.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "webpack",
     "storybook": "storybook dev -p 6006",
