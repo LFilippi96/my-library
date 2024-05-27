@@ -1,0 +1,21 @@
+.input-container {
+  position: relative;
+  width: 300px;
+}
+
+.input-field {
+  width: 100%;
+  max-width: 376px;
+  padding: 10px;
+  padding-left: 40px; /* Espacio para el icono */
+  border: 1px solid #c6c6cc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

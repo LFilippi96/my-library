@@ -1,0 +1,36 @@
+.storybook-buttonHogar {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 20px;
+    size: 14px;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    width: 320px;
+    height: 44px;
+  }
+  
+  .storybook-buttonHogar--primary {
+    color: black;
+    background-color: #2BD98E;
+  }
+  .storybook-buttonHogar--secondary {
+    color: #333;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  }
+  .storybook-buttonHogar--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  .storybook-buttonHogar--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+  .storybook-buttonHogar--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+  
