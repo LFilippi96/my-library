@@ -1,5 +1,5 @@
 import React from "react";
-import PropertySearch from "./PropertySearch";
+import { PropertySearch } from "./PropertySearch";
 
 import type { Meta, StoryObj } from "@storybook/react";
 

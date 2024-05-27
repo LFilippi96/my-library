@@ -1,4 +1,4 @@
-export { default as SelectHogar } from "./Select/Select.tsx";
-export { default as PropertySearch } from "./PropertySearch/PropertySearch.tsx";
-export { default as ButtonHogar } from "./ButtonHogar/ButtonHogar.tsx";
-export { default as InputHogar } from "./InputHogar/InputHogar.tsx";
+export { Select } from "./Select/Select.tsx";
+export { PropertySearch } from "./PropertySearch/PropertySearch.tsx";
+export { ButtonHogar } from "./ButtonHogar/ButtonHogar.tsx";
+export { InputHogar } from "./InputHogar/InputHogar.tsx";

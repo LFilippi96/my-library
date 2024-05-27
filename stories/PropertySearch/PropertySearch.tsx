@@ -1,7 +1,9 @@
-import React from 'react';
-import styles from './PropertySearch.module.css';
+import React from "react";
+import styles from "./PropertySearch.module.css";
 
-const PropertySearch: React.FC = () => {
+// export const PropertySearch: React.FC = () => {
+
+export const PropertySearch = () => {
   return (
     <div className={styles.searchContainer}>
       <select className={styles.select}>
@@ -18,5 +20,3 @@ const PropertySearch: React.FC = () => {
     </div>
   );
 };
-
-export default PropertySearch;
