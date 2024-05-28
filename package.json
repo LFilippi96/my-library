@@ -1,8 +1,11 @@
 {
   "name": "@LFilippi96/my-library",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "dist/bundle.js",
-  "repository": "https://github.com/LFilippi96/my-library.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LFilippi96/my-library.git"
+  },
   "files": [
     "dist"
   ],
