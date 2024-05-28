@@ -1,14 +1,19 @@
 {
   "name": "@LFilippi96/my-library",
-  "version": "0.1.6",
+  "version": "0.1.7",
+  "main": "dist/bundle.js",
   "repository": "https://github.com/LFilippi96/my-library.git",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "build": "webpack",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "start": "webpack --mode development --config ./webpack.config.js --watch"
   },
   "dependencies": {
     "next": "14.2.3",
