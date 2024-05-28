@@ -1,10 +1,7 @@
 {
   "name": "@LFilippi96/my-library",
-  "version": "0.1.5",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LFilippi96/my-library.git"
-  },
+  "version": "0.1.6",
+  "repository": "https://github.com/LFilippi96/my-library.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
